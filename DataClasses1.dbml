@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MES_VINA" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.100.11;Initial Catalog=MES_VINA;User ID=thlone" SettingsObjectName="WindowsFormsApp1.Properties.Settings" SettingsPropertyName="MES_VINAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ITEM_INFO" Member="ITEM_INFOs">
+    <Type Name="ITEM_INFO">
+      <Column Name="ITEM_ID" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ASSET_TYPE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ITEM_CODE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ITEM_NAME" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="PURC_NAME" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="MAIN_DRAWING_NO" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DRAWING_NO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BUSINESS_LCODE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PRODUCT_FAMILY" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PRODUCT_TYPE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PIN" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="TYPE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PITCH" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PART_TYPE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PILLAR" Type="System.Decimal" DbType="Decimal(14,4)" CanBeNull="true" />
+      <Column Name="AREA" Type="System.Decimal" DbType="Decimal(14,4)" CanBeNull="true" />
+      <Column Name="REVISION" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="REVISION_PROD" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="DEVICE_GROUP" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="COMPO_FLAG" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="MAIN_SITE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SC_PROCESS" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="THICKNESS" Type="System.Decimal" DbType="Decimal(14,4)" CanBeNull="true" />
+      <Column Name="MIX_CODE" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UNIT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PARA_QTY" Type="System.Decimal" DbType="Decimal(14,4)" CanBeNull="true" />
+      <Column Name="JIG_YN" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="MATERIAL_CODE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="MEASUREMENT" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CUST_LTYPE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SPECIAL_ITEM_YN" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="SPECIAL_REMARK" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SEND_DRAWING" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DRAWING_PDF_URL" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DRAWING_DWG_URL" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DRAWING_3DPDF_URL" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="BOM_APPROVAL" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="BOM_APPROVER" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="BOM_APPROVAL_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PURC_TYPE1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="REQ_YN" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="USE_YN" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="REMARK" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="P_CODE" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="MODY_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MODY_USERID" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="MODY_IP_ADDR" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
